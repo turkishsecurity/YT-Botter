@@ -8,7 +8,7 @@ os.system("clear")
 
 os.system("figlet XALE")
 print(" ")
-print("YouTube Botter v1.0 - By Xale - GitHub: @xaletr")
+print("YT-BoTTeR v2.0 - By Xale - GitHub: @xaletr")
 print(" ")
 
 video = input("Target Video Link : ")
@@ -22,7 +22,9 @@ os.system("clear")
 
 
 def send():
+ os.system("anonsurf stop")
  print("1 İzlenme Gönderildi.. 15 Saniye Bekleniyor..")
+ os.system("anonsurf start")
  webbrowser.open(video)
  time.sleep(15)
 
